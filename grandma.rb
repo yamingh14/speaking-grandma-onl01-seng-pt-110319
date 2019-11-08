@@ -4,8 +4,6 @@ def speak_to_grandma(argument)
     return "I LOVE YOU TOO PUMPKIN!"
   elsif argument != argument.upcase
     return "HUH?! SPEAK UP, SONNY!"
-  elsif argument == "Hi!"
-    puts "HUH?! SPEAK UP, SONNY!"
   elsif argument == "WHAT DID YOU EAT TODAY?"
     puts "NO, NOT SINCE 1938!"
   elsif argument == "WHAT?"
