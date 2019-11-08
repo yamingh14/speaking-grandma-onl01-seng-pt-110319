@@ -2,7 +2,7 @@ def speak_to_grandma(argument)
   if argument == "I LOVE YOU GRANDMA!"
     puts "I LOVE YOU TOO PUMPKIN!"
     return "I LOVE YOU TOO PUMPKIN!"
-  elsif argument == argument.upcase 
+  elsif argument == argument.upcase
     puts "HUH?! SPEAK UP, SONNY!"
   elsif argument == "Hi!"
     puts "HUH?! SPEAK UP, SONNY!"
