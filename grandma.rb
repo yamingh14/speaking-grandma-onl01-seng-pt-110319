@@ -1,11 +1,10 @@
-def speak_to_grandma(argument)
-  if argument == "I LOVE YOU GRANDMA!"
-    puts "I LOVE YOU TOO PUMPKIN!"
-    return "I LOVE YOU TOO PUMPKIN!"
-  elsif argument != argument.upcase
-    return "HUH?! SPEAK UP, SONNY!"
+def speak_to_grandma(stmt)
+  if stmt == "I LOVE YOU GRANDMA!"
+    "I LOVE YOU TOO PUMPKIN!"
+  elsif stmt != stmt.upcase
+    "HUH?! SPEAK UP, SONNY!"
   else
-    return "NO, NOT SINCE 1938!"
+    "NO, NOT SINCE 1938!"
   end
 end
 
